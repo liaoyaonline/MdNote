@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Query>
+    <CmdType>DeviceStatus</CmdType>
+    <SN>800293061</SN>
+    <DeviceID>34020000001320000264</DeviceID>
+</Query>
