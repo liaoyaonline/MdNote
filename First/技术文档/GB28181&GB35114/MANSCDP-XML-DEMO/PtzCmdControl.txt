@@ -1,9 +1,0 @@
-
-
-<?xml version="1.0"?>
-<Control>
-<CmdType>DeviceControl</CmdType>
-<SN>11</SN>
-<DeviceID>34020000001310000053</DeviceID>
-<PTZCmd>A50F01021F0000D6</PTZCmd>
-</Control>

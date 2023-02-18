@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<Response>
-    <CmdType>Alarm</CmdType>
-    <SN>1</SN>
-    <DeviceID>64010000001340000101</DeviceID>
-    <Result>OK</Result>
-</Response>
