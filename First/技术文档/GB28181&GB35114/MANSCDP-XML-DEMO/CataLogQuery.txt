@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Query>
+<CmdType>Catalog</CmdType>
+<SN>86</SN>
+<DeviceID>32028100002001000002</DeviceID>
+</Query>

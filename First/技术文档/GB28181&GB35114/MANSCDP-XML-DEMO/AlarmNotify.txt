@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Notify>
+    <CmdType>Alarm</CmdType>
+    <SN>1</SN>
+    <DeviceID>64010000001340000101</DeviceID>
+    <AlarmPriority>4</AlarmPriority>
+    <AlarmTime>2009-12-04T16:23:32</AlarmTime>
+    <AlarmMethod>5</AlarmMethod><!-- 5-视频报警 -->
+    <Info>
+        <AlarmType>6</AlarmType><!-- 6-入侵检测报警 -->
+        <AlarmTypeParam>
+            <EventType>1</EventType><!-- 1-进入区域 -->
+        </AlarmTypeParam>
+    </Info>
+</Notify>

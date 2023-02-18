@@ -1,0 +1,88 @@
+<! -- 命令类型:设备配置(必选)--> 
+<elementname="CmdType"fixed="DeviceConfig"/> 
+<! -- 命令序列号(必选)--> 
+<elementname="SN" type="integer"minInclusivevalue= "1"/>
+ <! -- 目标设备编码(必选)--> 
+ <elementname="DeviceID" type="tg:deviceIDType"/>
+ <! -- 基本参数配置(可选)--> 
+ <elementname="BasicParam"minOccurs="0"> 
+ <complexType> 75 GB/T28181—2016
+<sequence> <! -- 设备名称(可选)--> 
+<elementname="Name"type="string" minOccurs="0"/> 
+<! -- 注册过期时间(可选)-->
+ <elementname="Expiration"type="integer" minOccurs="0"/> 
+ <! -- 心跳间隔时间(可选)--> 
+ <elementname="HeartBeatInterval"type="integer" minOccurs="0"/> 
+ <! -- 心跳超时次数(可选)--> 
+ <elementname="HeartBeatCount"type="integer" minOccurs="0"/>
+ </sequence> </complexType> 
+ </element> 
+ <! -- SVAC编码配置(可选)--> 
+ <elementname="SVACEncodeConfig"minOccurs="0"> 
+ <complexType> <sequence> 
+ <! --感兴趣区域参数(可选)--> 
+ <elementname="ROIParam"minOccurs="0">
+ <complexType> <sequence> 
+ <! -- 感兴趣区域开关,取值0:关闭,1:打开(可选)-->
+ <elementname="ROIFlag"type="integer" minOccurs="0"/> 
+ <! -- 感兴趣区域数量,取值范围0~16(可选)--> 
+ <elementname="ROINumber"type="integer"minOccurs="0"/>
+ <! -- 感兴趣区域(可选)--> <elementname="Item"minOccurs= "0"maxOccurs= "16"/> 
+ <complexType> <sequence> 
+ <! -- 感兴趣区域编号,取值范围1~16(可选)-->
+ <elementname="ROISeq"type="integer"minOccurs="0"/>
+ <! -- 感兴趣区域左上角坐标,参考 GB/T25724—2010的5.2.4.4.2 定义,取值范围0~19683(可选)--> 
+ <elementname="TopLeft"type="integer"minOccurs="0"/>
+ <! -- 感兴趣区域右下角坐标,参考 GB/T25724—2010的5.2.4.4.2 定义,取值范围0~19683(可选)-->
+ <elementname="BottomRight"type="integer"minOccurs="0"/>
+ <! -- ROI区域编码质量等级,取值0:一般,1:较好,2:好,3:很好(可 选)-->
+ <elementname="ROIQP"type="integer"minOccurs="0"/> </sequence>
+ </complexType>
+ </element>
+ <! -- 背景区域编码质量等级,取值0:一般,1:较好,2:好,3:很好(可选)--> 
+<elementname="BackGroundQP"type="integer"minOccurs="0"/>
+ <! -- 背景跳过开关,取值0:关闭,1:打开(可选)-->
+ <elementname="BackGroundSkipFlag"type="integer"minOccurs="0"/> 
+ </sequence> 
+ </complexType> 
+ </element> 
+ <! --音频参数(可选)--> 
+ <elementname="AudioParam"minOccurs="0"> 
+ <complexType> <sequence> 
+ <! -- 声音识别特征参数开关,取值0:关闭,1:打开(必选)--> 
+ <elementname="AudioRecognitionFlag"type="integer"/>
+ </sequence>
+ </complexType> 
+ </element>
+ </sequence>
+ </complexType> 
+ </element>
+ <! -- SVAC解码配置(可选)--> 
+ <elementname="SVACDecodeConfig"minOccurs="0">
+ <complexType>
+ <sequence>
+ <! --SVC参数(可选)-->
+ <elementname="SVCParam"minOccurs="0">
+ <complexType> <sequence> 
+ <! -- 码流显示模式,取值0:基本层码流单独显示方式;1:基本层+1个增强 层码流方式;2:基本层+2个增强层码流方式;3:基本层+3个增强层码流方式; (必选)--> 
+ <elementname="SVCSTMMode"type="integer"/> 
+ </sequence> 
+ </complexType> 
+ </element> 
+ <! --监控专用信息参数(可选)--> 
+ <elementname="SurveillanceParam"minOccurs="0">
+ <complexType> 
+ <sequence>
+ <! -- 绝对时间信息显示开关,取值0:关闭,1:打开(可选)--> 
+ <elementname="TimeShowFlag"type="integer"minOccurs="0"/>
+ <! -- 监控事件信息显示开关,取值0:关闭,1:打开(可选)-->
+ <elementname="EventShowFlag"type="integer"minOccurs="0"/>
+ <! -- 报警信息显示开关,取值0:关闭,1:打开(可选)--> 
+ <elementname="AlerShowtFlag"type="integer"minOccurs="0"/> 
+ 
+</sequence>
+</complexType>
+</element>
+</sequence> 
+</complexType> 
+</element>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+<CmdType>DeviceStatus</CmdType>
+<SN>800293061</SN>
+<DeviceID>34020000001320000264</DeviceID>
+<Result>OK</Result>
+<Online>ONLINE</Online>
+<Status>OK</Status>
+<DeviceTime>2019-08-07T13:56:27</DeviceTime>
+<Alarmstatus Num="0">
+</Alarmstatus>
+<Encode>ON</Encode>
+<Record>OFF</Record>
+</Response>
