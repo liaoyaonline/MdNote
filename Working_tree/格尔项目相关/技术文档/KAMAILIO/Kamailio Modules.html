@@ -1,0 +1,1229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0041)https://kamailio.org/docs/modules/stable/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Kamailio Modules</title>
+<meta name="GENERATOR" content="Modular DocBook HTML Stylesheet Version 1.79">
+<link rel="STYLESHEET" type="text/css" href="./Kamailio Modules_files/docbook-index.css">
+</head>
+
+<body>
+<h1 class="title"><a href="https://kamailio.org/docs/modules/stable/modules/">Kamailio Modules - v5.4.x (stable)</a></h1>
+
+<br>
+
+	<table width="98%" align="center">
+	<tbody><tr bgcolor="#bbbbbb">
+		<th align="center">Module</th>
+		<th align="center">Description</th>
+		<th align="center">Status</th>
+	</tr>
+	<tr>
+		<td align="center" style="text-align:center" colspan="3">
+			- <a href="https://kamailio.org/docs/modules/stable/#A">A</a> - <a href="https://kamailio.org/docs/modules/stable/#B">B</a> - <a href="https://kamailio.org/docs/modules/stable/#C">C</a> - <a href="https://kamailio.org/docs/modules/stable/#D">D</a> - <a href="https://kamailio.org/docs/modules/stable/#E">E</a> - <a href="https://kamailio.org/docs/modules/stable/#F">F</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#G">G</a> - <a href="https://kamailio.org/docs/modules/stable/#H">H</a> - <a href="https://kamailio.org/docs/modules/stable/#I">I</a> - <a href="https://kamailio.org/docs/modules/stable/#J">J</a> - <a href="https://kamailio.org/docs/modules/stable/#K">K</a> - <a href="https://kamailio.org/docs/modules/stable/#L">L</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#M">M</a> - <a href="https://kamailio.org/docs/modules/stable/#N">N</a> - <a href="https://kamailio.org/docs/modules/stable/#O">O</a> - <a href="https://kamailio.org/docs/modules/stable/#P">P</a> - <a href="https://kamailio.org/docs/modules/stable/#Q">Q</a> - <a href="https://kamailio.org/docs/modules/stable/#R">R</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#S">S</a> - <a href="https://kamailio.org/docs/modules/stable/#T">T</a> - <a href="https://kamailio.org/docs/modules/stable/#U">U</a> - <a href="https://kamailio.org/docs/modules/stable/#V">V</a> - <a href="https://kamailio.org/docs/modules/stable/#W">W</a> - <a href="https://kamailio.org/docs/modules/stable/#X">X</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#Y">Y</a> - <a href="https://kamailio.org/docs/modules/stable/#Z">Z</a> -
+		</td>
+	</tr>
+	<tr>
+		<td align="left"><a name="A"></a><a href="https://kamailio.org/docs/modules/stable/modules/acc.html">ACC</a></td>
+		<td align="left">Accounting module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/acc_diameter.html">ACC_DIAMETER</a></td>
+		<td align="left">Accounting module for DIAMETER backend</td>
+		<td align="center"><span class="kmodold">alpha</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/acc_json.html">ACC_JSON</a></td>
+		<td align="left">Accounting module generating a JSON document pushed to MQueue</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/acc_radius.html">ACC_RADIUS</a></td>
+		<td align="left">Accounting module for RADIUS backend</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/alias_db.html">ALIAS_DB</a></td>
+		<td align="left">Database aliases module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_java.html">APP_JAVA</a></td>
+		<td align="left">Execute embedded Java applications</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_jsdt.html">APP_JSDT</a></td>
+		<td align="left">Execute embedded JavaScript scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_lua.html">APP_LUA</a></td>
+		<td align="left">Execute embedded Lua scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_lua_sr.html">APP_LUA_SR</a></td>
+		<td align="left">Export old Lua sr library</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_mono.html">APP_MONO</a></td>
+		<td align="left">Execute embedded managed code (e.g., C#, VisualBasic.NET, Java, Java Script)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_perl.html">APP_PERL</a></td>
+		<td align="left">Embed execution of Perl functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_python.html">APP_PYTHON</a></td>
+		<td align="left">Execute embedded Python2 scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_python3.html">APP_PYTHON3</a></td>
+		<td align="left">Execute embedded Python3 scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_ruby.html">APP_RUBY</a></td>
+		<td align="left">Execute embedded Ruby scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/app_sqlang.html">APP_SQLANG</a></td>
+		<td align="left">Execute embedded Squirrel language scripts</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/async.html">ASYNC</a></td>
+		<td align="left">Asynchronous SIP request handling functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth.html">AUTH</a></td>
+		<td align="left">Authentication Interface module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_db.html">AUTH_DB</a></td>
+		<td align="left">Database-backend authentication module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_diameter.html">AUTH_DIAMETER</a></td>
+		<td align="left">DIAMETER-backend authentication module</td>
+		<td align="center"><span class="kmodold">alpha</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_ephemeral.html">AUTH_EPHEMERAL</a></td>
+		<td align="left">User authentication with ephemeral credentials</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_identity.html">AUTH_IDENTITY</a></td>
+		<td align="left">Identity authentication module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_radius.html">AUTH_RADIUS</a></td>
+		<td align="left">RADIUS-backend authentication module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/auth_xkeys.html">AUTH_XKEYS</a></td>
+		<td align="left">Shared keys authentication module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/avp.html">AVP</a></td>
+		<td align="left">Collection of functions for handling AVPs</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/avpops.html">AVPOPS</a></td>
+		<td align="left">AVP operations module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="B"></a><a href="https://kamailio.org/docs/modules/stable/modules/benchmark.html">BENCHMARK</a></td>
+		<td align="left">Config file benchmarking</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/blst.html">BLST</a></td>
+		<td align="left">Blacklisting API for config</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="C"></a><a href="https://kamailio.org/docs/modules/stable/modules/call_control.html">CALL_CONTROL</a></td>
+		<td align="left">Conector to call_control application</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/call_obj.html">CALL_OBJ</a></td>
+		<td align="left">Assign integer ids to calls from a ring pool of values</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/carrierroute.html">CARRIERROUTE</a></td>
+		<td align="left">Routing extension suitable for carriers</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cdp.html">CDP</a></td>
+		<td align="left">C Diameter Peer - core communication engine</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cdp_avp.html">CDP_AVP</a></td>
+		<td align="left">C Diameter Peer - application extensions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cfg_db.html">CFG_DB</a></td>
+		<td align="left">Load core and module parameters from database</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cfg_rpc.html">CFG_RPC</a></td>
+		<td align="left">Update core and module parameters at runtime via RPC interface</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cfgutils.html">CFGUTILS</a></td>
+		<td align="left">Different config utilities</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cfgt.html">CFGT</a></td>
+		<td align="left">Unit test config file execution tracing</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cnxcc.html">CNXCC</a></td>
+		<td align="left">Credit control module - prepaid system</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/corex.html">COREX</a></td>
+		<td align="left">Core extensions via module interface</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/counters.html">COUNTERS</a></td>
+		<td align="left">Internal counter API for config</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/cplc.html">CPLC</a></td>
+		<td align="left">CPL interpreter module</td>
+		<td align="center"><span class="kmodren">renamed</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/crypto.html">CRYPTO</a></td>
+		<td align="left">Cryptographic extensions for use in config</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ctl.html">CTL</a></td>
+		<td align="left">Control connector for RPC interface (fifo, unixsock, tcp, udp)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="D"></a><a href="https://kamailio.org/docs/modules/stable/modules/db_berkeley.html">DB_BERKELEY</a></td>
+		<td align="left">Berkeley DB driver for DB API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_cassandra.html">DB_CASSANDRA</a></td>
+		<td align="left">Cassandra database server connector</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_cluster.html">DB_CLUSTER</a></td>
+		<td align="left">Generic database connectors clustering</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_flatstore.html">DB_FLATSTORE</a></td>
+		<td align="left">Fast writting-only text-backend for database module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_mongodb.html">DB_MONGODB</a></td>
+		<td align="left">MongoDB connector for DB APIv1</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_mysql.html">DB_MYSQL</a></td>
+		<td align="left">MYSQL-backend for database API  module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_oracle.html">DB_ORACLE</a></td>
+		<td align="left">Oracle driver for DB API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_perlvdb.html">DB_PERLVDB</a></td>
+		<td align="left">Perl Virtual Database engine</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_postgres.html">DB_POSTGRES</a></td>
+		<td align="left">POSTGRES-backend for database API module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_redis.html">DB_REDIS</a></td>
+		<td align="left">Redis-backend for database API module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_sqlite.html">DB_SQLITE</a></td>
+		<td align="left">SQLITE-backend for database API  module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_text.html">DB_TEXT</a></td>
+		<td align="left">Text-backend for database API module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db_unixodbc.html">DB_UNIXODBC</a></td>
+		<td align="left">unixODBC driver module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db2_ldap.html">DB2_LDAP</a></td>
+		<td align="left">DB APIv2 connector to LDAP servers</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/db2_ops.html">DB2_OPS</a></td>
+		<td align="left">DB APIv2 config operations</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/debugger.html">DEBUGGER</a></td>
+		<td align="left">Interactive config debugger</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dialog.html">DIALOG</a></td>
+		<td align="left">Dialog support module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dialplan.html">DIALPLAN</a></td>
+		<td align="left">Dialplan translation module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dispatcher.html">DISPATCHER</a></td>
+		<td align="left">Dispatcher (load-balancer) module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/diversion.html">DIVERSION</a></td>
+		<td align="left">Diversion header insertion module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dlgs.html">DLGS</a></td>
+		<td align="left">Lightwight, stateless dialog tracking and statistics</td>
+		<td align="center"><span class="kmodold">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dmq.html">DMQ</a></td>
+		<td align="left">Distributed Message Queue System using SIP</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dmq_usrloc.html">DMQ_USRLOC</a></td>
+		<td align="left">User location replication using DMQ</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/dnssec.html">DNSSEC</a></td>
+		<td align="left">DNSSEC implementation for SIP routing</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/domain.html">DOMAIN</a></td>
+		<td align="left">Multi-domain support module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/domainpolicy.html">DOMAINPOLICY</a></td>
+		<td align="left">Policies to connect federations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/drouting.html">DROUTING</a></td>
+		<td align="left">Yet another prefix routing module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="E"></a><a href="https://kamailio.org/docs/modules/stable/modules/enum.html">ENUM</a></td>
+		<td align="left">ENUM lookup module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/erlang.html">ERLANG</a></td>
+		<td align="left">Erlang node connector module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/evapi.html">EVAPI</a></td>
+		<td align="left">Network event broadcast API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/evrexec.html">EVREXEC</a></td>
+		<td align="left">Execut event routes at startup on dedicated processes</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/exec.html">EXEC</a></td>
+		<td align="left">External application execution module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="F"></a><a href="https://kamailio.org/docs/modules/stable/modules/geoip.html">GEOIP</a></td>
+		<td align="left">GeoIP API to config file</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/geoip2.html">GEOIP2</a></td>
+		<td align="left">GeoIP API to config file using the new library with IPv6 support</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/group.html">GROUP</a></td>
+		<td align="left">User-groups module with DB-backend</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/gzcompress.html">GZCOMPRESS</a></td>
+		<td align="left">Compress and decompress SIP message body with zlib</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="H"></a><a href="https://kamailio.org/docs/modules/stable/modules/h350.html">H350</a></td>
+		<td align="left">H350 implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/htable.html">HTABLE</a></td>
+		<td align="left">Generic Hash Table container in shared memory</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/http_client.html">HTTP_CLIENT</a></td>
+		<td align="left">Sync and async HTTP client using CURL library</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/http_async_client.html">HTTP_ASYNC_CLIENT</a></td>
+		<td align="left">Alternative async HTTP client using CURL and event libraries</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="I"></a><a href="https://kamailio.org/docs/modules/stable/modules/ims_auth.html">IMS_AUTH</a></td>
+		<td align="left">IMS authentication module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_charging.html">IMS_CHARGING</a></td>
+		<td align="left">IMS charging component module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_dialog.html">IMS_DIALOG</a></td>
+		<td align="left">IMS dialog tracking module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_diameter_server.html">IMS_DIAMETER_SERVER</a></td>
+		<td align="left">IMS DIAMETER server module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_icscf.html">IMS_ICSCF</a></td>
+		<td align="left">IMS ICSCF component module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_ipsec_pcscf.html">IMS_IPSEC_PCSCF</a></td>
+		<td align="left">IMS IPSEC PCSCF module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_isc.html">IMS_ISC</a></td>
+		<td align="left">IMS ISC component module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_ocs.html">IMS_OCS</a></td>
+		<td align="left">IMS OCS component module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_qos.html">IMS_QOS</a></td>
+		<td align="left">IMS Diameter Rx interface between PCSCF and PCRF functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_registrar_pcscf.html">IMS_REGISTRAR_PCSCF</a></td>
+		<td align="left">IMS PCSCF registrar module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_registrar_scscf.html">IMS_REGISTRAR_SCSCF</a></td>
+		<td align="left">IMS SCSCF registrar module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_usrloc_pcscf.html">IMS_USRLOC_PCSCF</a></td>
+		<td align="left">IMS PCSCF usrloc module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ims_usrloc_scscf.html">IMS_USRLOC_SCSCF</a></td>
+		<td align="left">IMS SCSCF usrloc module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/imc.html">IMC</a></td>
+		<td align="left">Instant Messaging Conferencing module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ipops.html">IPOPS</a></td>
+		<td align="left">IP and DNS related operations for configuration file</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="J"></a><a href="https://kamailio.org/docs/modules/stable/modules/jansson.html">JANSSON</a></td>
+		<td align="left">JSON document management using jansson library</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/janssonrpcc.html">JANSSONRPCC</a></td>
+		<td align="left">JSON-RPC client over netstrings using jansson library</td>
+		<td align="center"><span class="kmodren">renamed</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/json.html">JSON</a></td>
+		<td align="left">JSON document management using json-c library</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/jsonrpcc.html">JSONRPCC</a></td>
+		<td align="left">JSON-RPC client over netstrings using json-c library</td>
+		<td align="center"><span class="kmodren">renamed</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/jsonrpcs.html">JSONRPCS</a></td>
+		<td align="left">JSON-RPC server over HTTP</td>
+		<td align="center"><span class="kmodren">renamed</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/kafka.html">KAFKA</a></td>
+		<td align="left">Produces and sends messages to a Kafka server</td>
+		<td align="center"><span class="kmodnew">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="K"></a><a href="https://kamailio.org/docs/modules/stable/modules/kazoo.html">KAZOO</a></td>
+		<td align="left">Middle layer connector for Kazoo VoIP platform</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/keepalive.html">KEEPALIVE</a></td>
+		<td align="left">Manage SIP-based keepalive monitoring of remote peers</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/kemix.html">KEMIX</a></td>
+		<td align="left">Kamailio KEMI specific extensions module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/kex.html">KEX</a></td>
+		<td align="left">Kamailio core extensions module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="L"></a><a href="https://kamailio.org/docs/modules/stable/modules/lcr.html">LCR</a></td>
+		<td align="left">Least Cost Routing module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ldap.html">LDAP</a></td>
+		<td align="left">LDAP connector</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/log_custom.html">LOG_CUSTOM</a></td>
+		<td align="left">Logging to custom backends</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/log_systemd.html">LOG_SYSTEMD</a></td>
+		<td align="left">Logging to systemd journal</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/lost.html">LOST</a></td>
+		<td align="left">HELD (RFC6155) and LOST (RFC5222) location-based routing</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="M"></a><a href="https://kamailio.org/docs/modules/stable/modules/malloc_test.html">MALLOC_TEST</a></td>
+		<td align="left">Functions for stress-testing memory manager</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mangler.html">MANGLER</a></td>
+		<td align="left">SIP message mangling functions</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/matrix.html">MATRIX</a></td>
+		<td align="left">Matrix operations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/maxfwd.html">MAXFWD</a></td>
+		<td align="left">Max-Forward processor module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mediaproxy.html">MEDIAPROXY</a></td>
+		<td align="left">NAT traversal module using mediaproxy</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/memcached.html">MEMCACHED</a></td>
+		<td align="left">Memcached connector module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/misc_radius.html">MISC_RADIUS</a></td>
+		<td align="left">Generic RADIUS functions, replaces avp_radius, uri_radius and group_radius</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mohqueue.html">MOHQUEUE</a></td>
+		<td align="left">Music on hold queuing system</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mqtt.html">MQTT</a></td>
+		<td align="left">MQTT connector for bi-directional publish-subscribe communication</td>
+		<td align="center"><span class="kmodnew">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mqueue.html">MQUEUE</a></td>
+		<td align="left">Message queue system for config file</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/msilo.html">MSILO</a></td>
+		<td align="left">SIP message silo module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/msrp.html">MSRP</a></td>
+		<td align="left">Embedded MSRP relay (RFC4975 and RFC4976)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/mtree.html">MTREE</a></td>
+		<td align="left">Generic memory caching system using tree indexes</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="N"></a><a href="https://kamailio.org/docs/modules/stable/modules/nathelper.html">NATHELPER</a></td>
+		<td align="left">NAT traversal module - signaling functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/nat_traversal.html">NAT_TRAVERSAL</a></td>
+		<td align="left">Alternative NAT traversal module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ndb_cassandra.html">NDB_CASSANDRA</a></td>
+		<td align="left">Config connector to CASSANDRA NoSQL database engine</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ndb_mongodb.html">NDB_MONGODB</a></td>
+		<td align="left">Config connector to MongoDB NoSQL database engine</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ndb_redis.html">NDB_REDIS</a></td>
+		<td align="left">Config connector to REDIS NoSQL database engine</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/nosip.html">NOSIP</a></td>
+		<td align="left">Handle non-sip messages received by SIP workers via event_route</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/nsq.html">NSQ</a></td>
+		<td align="left">NSQ consumer for configuration file</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="O"></a><a href="https://kamailio.org/docs/modules/stable/modules/osp.html">OSP</a></td>
+		<td align="left">OSP peering module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/outbound.html">OUTBOUND</a></td>
+		<td align="left">SIP Outbound implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="P"></a><a href="https://kamailio.org/docs/modules/stable/modules/p_usrloc.html">P_USRLOC</a></td>
+		<td align="left">Partitioned and distributed user location services</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+	</tr><tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/path.html">PATH</a></td>
+		<td align="left">Path support for SIP loadbalancer</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pdb.html">PDB</a></td>
+		<td align="left">Number portability module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pdt.html">PDT</a></td>
+		<td align="left">Prefix-to-Domain translator module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/peering.html">PEERING</a></td>
+		<td align="left">RADIUS peering module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/permissions.html">PERMISSIONS</a></td>
+		<td align="left">Permissions control module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/phonenum.html">PHONENUM</a></td>
+		<td align="left">Phone number lookup and normalization using libphonenumber</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pike.html">PIKE</a></td>
+		<td align="left">Flood detector module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pipelimit.html">PIPELIMIT</a></td>
+		<td align="left">Traffic shaping policies</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/prefix_route.html">PREFIX_ROUTE</a></td>
+		<td align="left">Execute config file route blocks based on prefix</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence.html">PRESENCE</a></td>
+		<td align="left">Presence server module - common API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_conference.html">PRESENCE_CONFERENCE</a></td>
+		<td align="left">Extension to Presence server for conference events handling</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_dialoginfo.html">PRESENCE_DIALOGINFO</a></td>
+		<td align="left">Extension to Presence server for Dialog Info</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_mwi.html">PRESENCE_MWI</a></td>
+		<td align="left">Extension to Presence server for Message Waiting Indication</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_profile.html">PRESENCE_PROFILE</a></td>
+		<td align="left">Presence server module - user profile extensions - RFC6080</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_xml.html">PRESENCE_XML</a></td>
+		<td align="left">Presence server module - presence &amp; watcher info and XCAP</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/presence_reginfo.html">PRESENCE_REGINFO</a></td>
+		<td align="left">Extension to Presence server for registration info replication (RFC3680)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/print.html">PRINT</a></td>
+		<td align="left">Basic sample of a module (devel)</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/print_lib.html">PRINT_LIB</a></td>
+		<td align="left">Basic sample of a module with internal lib dependency (devel)</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua.html">PUA</a></td>
+		<td align="left">Common API for presence user agent client</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_bla.html">PUA_BLA</a></td>
+		<td align="left">BLA extension for PUA</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_dialoginfo.html">PUA_DIALOGINFO</a></td>
+		<td align="left">Dialog Info extension for PUA</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_json.html">PUA_JSON</a></td>
+		<td align="left">PUA extensions using JSON documents</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_reginfo.html">PUA_REGINFO</a></td>
+		<td align="left">Extension to PUA server for registration info replication (RFC3680)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_rpc.html">PUA_RPC</a></td>
+		<td align="left">RPC extensions for PUA</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_usrloc.html">PUA_USRLOC</a></td>
+		<td align="left">USRLOC extension for PUA</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pua_xmpp.html">PUA_XMPP</a></td>
+		<td align="left">XMPP extension for PUA (SIMPLE-XMPP presence gateway)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/purple.html">PURPLE</a></td>
+		<td align="left">Multi-protocol gateway using Purple library</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pv.html">PV</a></td>
+		<td align="left">Module holding Pseudo-Variables</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/pv_headers.html">PV_HEADERS</a></td>
+		<td align="left">Header management for offload processing and/or modifications</td>
+		<td align="center"><span class="kmodold">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="Q"></a><a href="https://kamailio.org/docs/modules/stable/modules/qos.html">QOS</a></td>
+		<td align="left">QOS control API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="R"></a><a href="https://kamailio.org/docs/modules/stable/modules/rabbitmq.html">RABBITMQ</a></td>
+		<td align="left">RabbitMQ client for configuration file</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ratelimit.html">RATELIMIT</a></td>
+		<td align="left">Traffic shaping module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/regex.html">REGEX</a></td>
+		<td align="left">Regular expression matching using PCRE</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/registrar.html">REGISTRAR</a></td>
+		<td align="left">SIP Registrar implementation module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rls.html">RLS</a></td>
+		<td align="left">Resource List Server implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rr.html">RR</a></td>
+		<td align="left">Record-Route and Route module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rtimer.html">RTIMER</a></td>
+		<td align="left">Execute config route blocks on timer basis</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rtjson.html">RTJSON</a></td>
+		<td align="left">SIP routing based on JSON API</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rtp_media_server.html">RTP_MEDIA_SERVER</a></td>
+		<td align="left">RTP media server implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rtpengine.html">RTPENGINE</a></td>
+		<td align="left">RTPEngine media relay control functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/rtpproxy.html">RTPPROXY</a></td>
+		<td align="left">RTPProxy media relay control functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="S"></a><a href="https://kamailio.org/docs/modules/stable/modules/sanity.html">SANITY</a></td>
+		<td align="left">SIP message formatting sanity checks</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sca.html">SCA</a></td>
+		<td align="left">Shared Call Appearances</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sctp.html">SCTP</a></td>
+		<td align="left">SCTP Transport Layer</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sdpops.html">SDPOPS</a></td>
+		<td align="left">SDP operations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/seas.html">SEAS</a></td>
+		<td align="left">SIP Express Application Server (interface module)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/secsipid.html">SECSIPID</a></td>
+		<td align="left">Secure SIP/Telephony Identity (STIR/SHAKEN) extensions</td>
+		<td align="center"><span class="kmodnew">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/secfilter.html">SECFILTER</a></td>
+		<td align="left">SIP securty filtering rules</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sipcapture.html">SIPCAPTURE</a></td>
+		<td align="left">SIP capture server module, used in Homer project</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sipdump.html">SIPDUMP</a></td>
+		<td align="left">Save SIP traffic and associated runtime attributes</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sipt.html">SIPT</a></td>
+		<td align="left">SIP-T and SIP-I operations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/siptrace.html">SIPTRACE</a></td>
+		<td align="left">SIP traffic tracing module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/siputils.html">SIPUTILS</a></td>
+		<td align="left">SIP utilities</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sl.html">SL</a></td>
+		<td align="left">Stateless replier module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sms.html">SMS</a></td>
+		<td align="left">SIP-to-SMS IM gateway module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/smsops.html">SMSOPS</a></td>
+		<td align="left">Tools for handling SMS packets in SIP messages</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/snmpstats.html">SNMPStats</a></td>
+		<td align="left">SNMP interface for statistics module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/speeddial.html">SPEEDDIAL</a></td>
+		<td align="left">Per-user speed-dial controller module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sqlops.html">SQLOPS</a></td>
+		<td align="left">SQL operations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/ss7ops.html">SS7OPS</a></td>
+		<td align="left">JSON Operations for SS7 over HEP</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/sst.html">SST</a></td>
+		<td align="left">SIP Session Timer support</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/statistics.html">STATISTICS</a></td>
+		<td align="left">Script statistics support</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/statsc.html">STATSC</a></td>
+		<td align="left">Statistics collector providing reports</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/statsd.html">STATSD</a></td>
+		<td align="left">Connector for statsd application</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/stun.html">STUN</a></td>
+		<td align="left">STUN requirements for SIP outbound</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/systemdops.html">SYSTEMDOPS</a></td>
+		<td align="left">Provide integration with systemd</td>
+		<td align="center"><span class="kmodold">new</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="T"></a><a href="https://kamailio.org/docs/modules/stable/modules/tcpops.html">TCPOPS</a></td>
+		<td align="left">Options to tune TCP connections at runtime</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/textops.html">TEXTOPS</a></td>
+		<td align="left">Text operations module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/textopsx.html">TEXTOPSX</a></td>
+		<td align="left">Extra text operations</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/timer.html">TIMER</a></td>
+		<td align="left">Execute routing blocks on core timers</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/tls.html">TLS</a></td>
+		<td align="left">TLS operations module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/tm.html">TM</a></td>
+		<td align="left">Transaction (stateful) module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/tmrec.html">TMREC</a></td>
+		<td align="left">Match time recurrences defined based on RFC2445</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/tmx.html">TMX</a></td>
+		<td align="left">Transaction management extenstions module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/topoh.html">TOPOH</a></td>
+		<td align="left">Topology hiding module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/topos.html">TOPOS</a></td>
+		<td align="left">Topology stripping module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/topos_redis.html">TOPOS_REDIS</a></td>
+		<td align="left">Redis backend for topos module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/tsilo.html">TSILO</a></td>
+		<td align="left">Transaction storage container for dynamic new branches</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="U"></a><a href="https://kamailio.org/docs/modules/stable/modules/uac.html">UAC</a></td>
+		<td align="left">UAC functionalies (FROM mangling and UAC auth)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uac_redirect.html">UAC_REDIRECT</a></td>
+		<td align="left">UAC redirection functionality</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uid_auth_db.html">UID_AUTH_DB</a></td>
+		<td align="left">Authentication module using unique ids</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uid_avp_db.html">UID_AVP_DB</a></td>
+		<td align="left">AVP database operations using unique ids</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uid_domain.html">UID_DOMAIN</a></td>
+		<td align="left">Domains management using unique ids</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uid_gflags.html">UID_GFLAGS</a></td>
+		<td align="left">Global attributes and flags using unique ids</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uid_uri_db.html">UID_URI_DB</a></td>
+		<td align="left">Database URI operations using unique ids</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uri_db.html">URI_DB</a></td>
+		<td align="left">URI operations with database support module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/userblacklist.html">USERBLACKLIST</a></td>
+		<td align="left">User specific blacklists</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/usrloc.html">USRLOC</a></td>
+		<td align="left">User location implementation module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/utils.html">UTILS</a></td>
+		<td align="left">A set of useful functions</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/uuid.html">UUID</a></td>
+		<td align="left">Unique string value generator using libuuid</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="W"></a><a href="https://kamailio.org/docs/modules/stable/modules/websocket.html">WEBSOCKET</a></td>
+		<td align="left">WebSocket transport layer</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a name="X"></a><a href="https://kamailio.org/docs/modules/stable/modules/xcap_client.html">XCAP_CLIENT</a></td>
+		<td align="left">XCAP client implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xcap_server.html">XCAP_SERVER</a></td>
+		<td align="left">XCAP server implementation</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xhttp.html">XHTTP</a></td>
+		<td align="left">Basic HTTP request handling server</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xhttp_pi.html">XHTTP_PI</a></td>
+		<td align="left">Embedded provisioning interface over HTTP</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xhttp_prom.html">XHTTP_PROM</a></td>
+		<td align="left">XHTTP Promotheus metrics</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xhttp_rpc.html">XHTTP_RPC</a></td>
+		<td align="left">RPC commands handling over HTTP</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xlog.html">XLOG</a></td>
+		<td align="left">Advanced logger module</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xmlops.html">XMLOPS</a></td>
+		<td align="left">XML operations in config file using XPATH</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xmlrpc.html">XMLRPC</a></td>
+		<td align="left">XMLRPC connector for RPC interface</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xmpp.html">XMPP</a></td>
+		<td align="left">SIP-to-XMPP Gateway (SIP to Jabber/Google Talk)</td>
+		<td align="center"><span class="kmodold">released</span></td>
+	</tr>
+	<tr>
+		<td align="left"><a href="https://kamailio.org/docs/modules/stable/modules/xprint.html">XPRINT</a></td>
+		<td align="left">Functions for printing messages with specifiers</td>
+		<td align="center"><span class="kmodser">from-ser</span></td>
+	</tr>
+	<tr>
+		<td align="center" style="text-align:center" colspan="3">
+			- <a href="https://kamailio.org/docs/modules/stable/#A">A</a> - <a href="https://kamailio.org/docs/modules/stable/#B">B</a> - <a href="https://kamailio.org/docs/modules/stable/#C">C</a> - <a href="https://kamailio.org/docs/modules/stable/#D">D</a> - <a href="https://kamailio.org/docs/modules/stable/#E">E</a> - <a href="https://kamailio.org/docs/modules/stable/#F">F</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#G">G</a> - <a href="https://kamailio.org/docs/modules/stable/#H">H</a> - <a href="https://kamailio.org/docs/modules/stable/#I">I</a> - <a href="https://kamailio.org/docs/modules/stable/#J">J</a> - <a href="https://kamailio.org/docs/modules/stable/#K">K</a> - <a href="https://kamailio.org/docs/modules/stable/#L">L</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#M">M</a> - <a href="https://kamailio.org/docs/modules/stable/#N">N</a> - <a href="https://kamailio.org/docs/modules/stable/#O">O</a> - <a href="https://kamailio.org/docs/modules/stable/#P">P</a> - <a href="https://kamailio.org/docs/modules/stable/#Q">Q</a> - <a href="https://kamailio.org/docs/modules/stable/#R">R</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#S">S</a> - <a href="https://kamailio.org/docs/modules/stable/#T">T</a> - <a href="https://kamailio.org/docs/modules/stable/#U">U</a> - <a href="https://kamailio.org/docs/modules/stable/#V">V</a> - <a href="https://kamailio.org/docs/modules/stable/#W">W</a> - <a href="https://kamailio.org/docs/modules/stable/#X">X</a>
+			- <a href="https://kamailio.org/docs/modules/stable/#Y">Y</a> - <a href="https://kamailio.org/docs/modules/stable/#Z">Z</a> -
+		</td>
+	</tr>
+
+</tbody></table>
+
+
+
+</body></html>
